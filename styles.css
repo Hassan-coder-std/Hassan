@@ -1,0 +1,455 @@
+
+@media only screen and (max-width: 3460px){
+/* General Styles */
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(360_F_560422609_3nv30UESgwV4988d3rnk9yMJaGXw5x4T.jpg) no-repeat center center/cover;
+    -webkit-backdrop-filter: blur(5px);
+
+    backdrop-filter: blur(5px);
+}
+
+header {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid red;
+    transform: scale(3);
+}
+
+.hero {
+    /* background: url(images.jpg) no-repeat center center/cover; */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h2  {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-family: serif;
+    /* animation:heartBeat; */
+    animation-duration: -8s;
+    
+}
+
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: serif;
+}
+
+.btn {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+    /* background: #000000; */
+    /* background: url(360_F_969188528_TvZVsMMv16MikrcdDJmnWQaY9ehge0Wz.jpg) no-repeat center center/cover; */
+}
+
+.menu h2 {
+    /* margin-bottom: 20px; */
+    /* color: rgba(26, 139, 139, 0.549); */
+   color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+   font-size: 4rem;
+   font-style: italic;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-shadow: 3px 4px 4px red;
+   
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 30%;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height:60vh;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.menu-item button{
+    
+    background-color: #ff2600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 19px;
+}
+
+
+.about, .contact {
+    padding: 50px 20px;
+    text-align: center;
+
+
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   animation:animate__heartBeat;
+   color: white;
+   font-weight:bold;
+ font-style: italic;
+
+}
+.about  h2{
+    color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+    font-size: 4rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 3px 4px 4px rgb(255, 255, 255);
+}
+.about img{
+    max-width: 250px;
+    border-radius: 50px;
+   
+}
+.hassan{
+    position: relative;
+    right: 10%;
+    top: 60px;
+    
+}
+.hassan h4{
+    color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(229, 5, 5);
+    text-shadow: 3px 4px 4px rgb(255, 255, 255);
+}
+.anotherabout{
+height: 30vh;
+width: 50vw;
+position: relative;
+/* left: 28%; */
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+.contact  h2{
+    color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(229, 5, 5);
+    text-shadow: 3px 4px 4px rgb(255, 255, 255);
+}
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+}
+@media only screen and (max-width: 450px){
+    
+        /* General Styles */
+        body {
+            
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url(360_F_560422609_3nv30UESgwV4988d3rnk9yMJaGXw5x4T.jpg) no-repeat center center/cover;
+            -webkit-backdrop-filter: blur(5px);
+        word-wrap: break-word;
+            backdrop-filter: blur(5px);
+        }
+        
+        header {
+            /* background-color: #333; */
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header .logo h1 {
+            margin: 0;
+            font-size: 13px;
+            text-decoration: double;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin-left: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            border-bottom: 2px solid red;
+            transform: scale(3);
+        }
+        
+        .hero {
+            /* background: url(images.jpg) no-repeat center center/cover; */
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        
+        .hero-content h2  {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            font-family: serif;
+            /* animation:heartBeat; */
+            animation-duration: -8s;
+            
+        }
+        
+        
+        .hero-content p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            font-family: serif;
+        }
+        
+        .btn {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .menu {
+            /* padding: 50px 20px; */
+            text-align: center;
+            /* background: #000000; */
+            /* background: url(360_F_969188528_TvZVsMMv16MikrcdDJmnWQaY9ehge0Wz.jpg) no-repeat center center/cover; */
+        }
+        
+        .menu h2 {
+            /* margin-bottom: 20px; */
+            /* color: rgba(26, 139, 139, 0.549); */
+           color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+           font-size: 2rem;
+           font-style: italic;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           text-shadow: 3px 4px 4px red;
+           
+        }
+        
+        .menu-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .menu-item {
+            width: 30%;
+            margin-bottom: 20px;
+            color: white;
+            font-size: .5rem;
+            font-weight: bold;
+            height:60vh;
+            border-bottom: 2px solid rgb(255, 0, 0);
+        }
+        
+        .menu-item img {
+            max-width: 180%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .menu-item button{
+        font-size: .8rem;
+            background-color: #ff2600;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            left:12px;
+            top: 30px;
+        }
+        
+        
+        .about, .contact {
+            padding: 50px 20px;
+            text-align: center;
+        
+        
+        }
+        .about{
+            display: flex;
+            align-items: center;
+            /* justify-content: space-around; */
+           /* animation:animate__heartBeat; */
+           flex-direction: column;
+           color: white;
+           font-weight:bold;
+         font-style: italic;
+         height: 100vh;
+        
+        }
+        .about  h2{
+            color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+            font-size: 1rem;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+            text-shadow: 3px 4px 4px rgb(255, 255, 255);
+        }
+        .about p{
+            font-size: 11px;
+        }
+        .about img{
+            max-width: 100px;
+            border-radius: 50px;
+           
+        }
+        .hassan{
+            position: relative;
+            right: 10%;
+            top: 60px;
+            
+        }
+        .hassan h4{
+            color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+            font-size: 2rem;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(229, 5, 5);
+            text-shadow: 3px 4px 4px rgb(255, 255, 255);
+        }
+        .anotherabout{
+        height: 30vh;
+        width: 50vw;
+        position: relative;
+        /* left: 28%; */
+        }
+        
+        .contact form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .contact  h2{
+            color:  color-mix(in hsl, hsl(57, 100%, 52%), rgb(255, 255, 255) 80%);
+            font-size: 1rem;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(229, 5, 5);
+            text-shadow: 3px 4px 4px rgb(255, 255, 255);
+        }
+        .contact form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .contact form button {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        
+}
